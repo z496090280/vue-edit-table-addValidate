@@ -1,0 +1,31 @@
+.m-operate-btn-separator-line{
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: rgb(224, 224, 224);
+    margin: -3px 5px;
+}
+.m-table-column-checkbox{
+  line-height: 30px;
+  .el-checkbox{
+    width: 94px;
+  }
+}
+.m-table-operate-container{
+  text-align: right;
+  line-height: 24px;
+  .m-operate-btn{
+    margin-left: 5px;
+    color: #1890ff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+.disabledButton{
+  color: orange;
+}
+
+.el-pagination{
+  float: right;
+  margin: 10px;
+}

@@ -1,0 +1,40 @@
+.l-main {
+  display: flex;
+  height: 100%;
+  min-height: 200px;
+}
+/**文本框**/
+.el-input.is-disabled .el-input__inner{
+  color: #909399;
+}
+.el-textarea.is-disabled .el-textarea__inner{
+  color: #909399
+}
+/deep/ .tr-card__content{
+  margin-top: 10px;
+//  margin-left:  200px !important;
+}
+/deep/ .el-card__body{
+  padding-left: 100px !important;
+  padding-right: 300px !important;
+}
+.classLevel{
+  margin-left: 15px;
+    font-size: 12px;
+}
+.modelConfigNoError .el-input {
+  display: inline-block;
+  width: 70%;
+  margin-left: 5px;
+}
+.red{
+  color: red;
+  vertical-align: sub;
+}
+/deep/.modelConfigNoError .el-card__body{
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+/deep/ .el-form-item__label{
+  font-weight: 700;
+}
